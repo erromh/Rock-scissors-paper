@@ -8,7 +8,7 @@ namespace Game
         {
             char stop;
             int player_win = 0, PC_win = 0, draw = 0;
-            string PC_Throw = Get_RandomNumber();
+            
 
             Console.WriteLine("Rock - scissors - paper \n");
 
@@ -23,6 +23,8 @@ namespace Game
                 Console.Write(" -> ");
                 string Player_Throw = Console.ReadLine();
                 Console.WriteLine();
+                
+                string PC_Throw = Get_RandomNumber();
 
                 if ((Player_Throw == "0" && PC_Throw == "2") || (Player_Throw == "1" && PC_Throw == "0") || (Player_Throw == "2" && PC_Throw == "1"))
                 {
