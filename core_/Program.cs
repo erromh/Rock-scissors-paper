@@ -9,7 +9,6 @@ namespace Game
             char stop;
             int player_win = 0, PC_win = 0, draw = 0;
             
-
             Console.WriteLine("Rock - scissors - paper \n");
 
             do
